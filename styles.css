@@ -40,8 +40,8 @@
 .about-closer span{color:#6b7267}
 .service-list a{display:block}
 @media(max-width:700px){.about-body{padding:4rem 0 1rem}.about-lede{font-size:1.25rem}.about-closer{font-size:1.4rem}}
-.about-intro{display:grid;grid-template-columns:260px 1fr;gap:2.75rem;align-items:start;margin-bottom:.5rem}
-.about-portrait{margin:0;width:260px}
+.about-portrait{float:left;margin:0 2.75rem 1rem 0;width:260px}
 .about-portrait img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;filter:grayscale(.15)}
 .about-portrait figcaption{font-size:.75rem;color:#8b9183;letter-spacing:.05em;margin-top:.9rem}
-@media(max-width:700px){.about-intro{grid-template-columns:1fr;gap:1.5rem}.about-portrait{width:11rem}}
+.about-body::after{content:'';display:block;clear:both}
+@media(max-width:700px){.about-portrait{float:none;width:11rem;margin:0 0 1.5rem}}
