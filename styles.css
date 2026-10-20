@@ -47,3 +47,10 @@
 @media(max-width:700px){.about-portrait{float:none;width:11rem;margin:0 0 1.5rem}}
 .hero-image img.hero-pos-top{object-position:center 42%}
 @media(max-width:700px){.hero-image img.hero-pos-top{object-position:center}}
+.home-showcase{display:grid;grid-template-columns:1.6fr 1fr;gap:1.75rem;padding-bottom:6.5rem}
+.home-showcase figure{margin:0}
+.home-showcase img{width:100%;height:100%;object-fit:cover;display:block;border-radius:2px}
+.showcase-wide,.showcase-tall{height:560px}
+.home-showcase figcaption{margin-top:.9rem;font-size:.8125rem;letter-spacing:.03em;color:#60665e}
+@media(max-width:1000px){.home-showcase{grid-template-columns:1fr;gap:2.5rem}.showcase-wide,.showcase-tall{height:420px}}
+@media(max-width:700px){.showcase-wide,.showcase-tall{height:320px}}
