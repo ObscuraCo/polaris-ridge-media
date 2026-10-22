@@ -35,8 +35,8 @@
 .about-hero img{object-position:60% center}
 .about-body{padding:6.8rem 0 2rem}
 .about-body p{color:#454a41;font-size:1.0625rem;line-height:1.85;max-width:44rem;margin-bottom:1.6rem}
-.about-lede{font-family:var(--serif);font-size:1.5rem;line-height:1.55;color:var(--ink);max-width:40rem}
-.about-closer{font-family:var(--serif);font-size:1.75rem;font-style:italic;color:var(--ink);max-width:36rem;margin-top:2.5rem}
+.about-lede{font-family:var(--sans);font-weight:300;font-size:1.5rem;line-height:1.55;color:var(--ink);max-width:40rem}
+.about-closer{font-family:var(--sans);font-weight:300;font-size:1.75rem;font-style:italic;color:var(--ink);max-width:36rem;margin-top:2.5rem}
 .about-closer span{color:#6b7267}
 .service-list a{display:block}
 @media(max-width:700px){.about-body{padding:4rem 0 1rem}.about-lede{font-size:1.25rem}.about-closer{font-size:1.4rem}}
