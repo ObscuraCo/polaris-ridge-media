@@ -1,5 +1,5 @@
 (function () {
-  var galleryImgs = document.querySelectorAll('.gallery img');
+  var galleryImgs = document.querySelectorAll('.gallery img, .gallery-hero img');
   if (!galleryImgs.length) return;
 
   var overlay = document.createElement('div');
