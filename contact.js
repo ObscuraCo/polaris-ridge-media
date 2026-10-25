@@ -37,6 +37,8 @@
       .then(function(data){
         if(data.success){
           form.hidden = true;
+          var introEl = document.getElementById('contact-intro');
+          if(introEl) introEl.hidden = true;
           statusEl.textContent = "Thanks, that's on its way. We'll be in touch soon.";
           statusEl.className = 'form-status form-status-success';
         } else {

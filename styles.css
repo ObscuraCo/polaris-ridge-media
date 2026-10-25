@@ -37,7 +37,7 @@
 .form-field-wide{grid-column:1/-1}
 .botcheck{position:absolute;left:-9999px}
 .form-status{margin-top:1.25rem;font-size:.9375rem}
-.form-status-success{color:#7fae6b}
+.form-status-success{font-family:var(--serif);font-weight:400;color:var(--ink);font-size:clamp(1.75rem,3.2vw,2.75rem);letter-spacing:-.03em;line-height:1.15;margin-top:2rem}
 .form-status-error{color:#e2776a}
 @media(max-width:700px){.form-grid{grid-template-columns:1fr;gap:1.5rem}}
 .about-hero img{object-position:60% center}
