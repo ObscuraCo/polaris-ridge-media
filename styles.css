@@ -59,7 +59,7 @@
 .home-showcase{display:grid;grid-template-columns:1.6fr 1fr;gap:1.75rem;padding-bottom:6.5rem}
 .home-showcase figure{margin:0}
 .home-showcase img{width:100%;height:100%;object-fit:cover;display:block;border-radius:2px}
-.showcase-tall img{object-position:center top}
+.showcase-tall img{object-position:center 20%}
 .showcase-wide,.showcase-tall{height:560px}
 .home-showcase figcaption{margin-top:.9rem;font-size:.8125rem;letter-spacing:.03em;color:#9aa192}
 @media(max-width:1000px){.home-showcase{grid-template-columns:1fr;gap:2.5rem}.showcase-wide,.showcase-tall{height:420px}}
