@@ -56,6 +56,7 @@
 @media(min-width:1300px){.about-body{display:flex;align-items:flex-start;gap:3rem}.about-text{flex:1 1 auto;min-width:0}}
 .hero-image img.hero-pos-top{object-position:center 42%}
 @media(max-width:700px){.hero-image img.hero-pos-top{object-position:center}}
+.hero-image img.hero-pos-full{object-fit:contain;object-position:center;background:#111311}
 .home-showcase{display:grid;grid-template-columns:1.6fr 1fr;gap:1.75rem;padding-bottom:6.5rem}
 .home-showcase figure{margin:0}
 .home-showcase img{width:100%;height:100%;object-fit:cover;display:block;border-radius:2px}
