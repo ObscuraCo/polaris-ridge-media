@@ -46,7 +46,7 @@
         }
       })
       .catch(function(){
-        statusEl.textContent = "That didn't go through. Please try again, or reach us directly at contact@polarisridgemedia.com.";
+        statusEl.textContent = "That didn't go through. Please try again, or reach us directly at questions@polarisridgemedia.com.";
         statusEl.className = 'form-status form-status-error';
         if(submitBtn){
           submitBtn.disabled = false;
